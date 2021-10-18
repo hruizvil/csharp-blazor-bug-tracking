@@ -19,7 +19,7 @@
     public Bug AddBug { get; set; } = new Bug();
 
     [Inject]
-    IBugService BugService { get; set; }
+    public IBugService BugService { get; set; }
 
     [Inject]
     public NavigationManager NavService { get; set; }
